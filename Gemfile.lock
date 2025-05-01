@@ -5,7 +5,7 @@ PATH
       colorize
       config
       oauth2 (~> 2.0)
-      rack (~> 3.0)
+      rack (> 3.0, < 4.0)
       rest-client (~> 2.1)
 
 GEM
@@ -107,6 +107,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-darwin-19
   x86_64-darwin-21
   x86_64-linux
 
