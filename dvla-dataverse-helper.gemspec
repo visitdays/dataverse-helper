@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Integrate Microsoft Dataverse Web API to your project"
   spec.description = "This gem helps you integrate Microsoft Dataverse Web API to your ruby project"
   spec.homepage = "https://github.com/dvla/dataverse-helper"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.2.2"
   spec.metadata["homepage_uri"] = spec.homepage
 
   spec.files = Dir.chdir(__dir__) do
@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'oauth2', '~> 2.0'
   spec.add_dependency "rest-client", "~> 2.1"
-  spec.add_dependency 'rack', ">=3.0", "<4.0"
+  spec.add_dependency 'rack', '~> 2.0', '>= 2.0.9's
 
   spec.add_dependency 'colorize'
   spec.add_dependency 'config'
