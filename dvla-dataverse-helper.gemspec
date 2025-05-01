@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'oauth2', '~> 2.0'
   spec.add_dependency "rest-client", "~> 2.1"
-  spec.add_dependency 'rack', '~> 2.0', '>= 2.0.9's
+  spec.add_dependency 'rack', '~> 2.0', '>= 2.0.9'
 
   spec.add_dependency 'colorize'
   spec.add_dependency 'config'
